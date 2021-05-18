@@ -1,0 +1,55 @@
+.circle{
+    transition: 1s;
+    position: absolute;
+    margin: 0 0 0 -50px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    top: 100%;
+}
+body{
+    transition: 1s;
+    background-color: #1c0033;
+}
+@media screen and (min-width: 1751px){
+    body{
+        transition: 1s;
+        background-color: #87ceeb;
+    }
+    .circle{
+        transition: 1s;
+        position: absolute;
+        margin: 50px 0 0 -50px;
+        left: 50%;
+        top: 0%;
+    }
+}
+@media screen and (max-width: 1750px) and (min-width: 1251px){
+    body{
+        transition: 1s;
+        background-color: #ffc0cb;
+    }
+    .circle{
+        transition: 1s;
+        position: absolute;
+        margin: -50px 0 0 -50px;
+        left: 50%;
+        top: 50%;
+    }
+}
+@media screen and (max-width: 1250px) and (min-width: 751px){
+    body{
+        transition: 1s;
+        background-color: #8b00ff;
+    }
+    .circle{
+        transition: 1s;
+        position: absolute;
+        margin: -150px 0 0 -50px;
+        left: 50%;
+        top: 100%;
+    }
+}
+
